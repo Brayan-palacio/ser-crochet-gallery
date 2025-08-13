@@ -166,6 +166,7 @@ $ultimasImagenes = $conn->query("SELECT * FROM imagenes ORDER BY fecha_subida DE
   </style>
 </head>
 <body>
+<?php include('navbar.php'); ?>
   <div class="container">
     <header>
       <h1><i class="fas fa-camera-retro"></i> Panel de Control</h1>

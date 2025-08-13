@@ -20,12 +20,17 @@ $result = mysqli_query($conn, $query);
       --dark-color: #3a2e32;
     }
     
+        * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
     body {
       font-family: 'Raleway', sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 20px;
+      background-color: #f5f5f5;
       color: var(--dark-color);
+      line-height: 1.6;
     }
     
     .container {
@@ -36,7 +41,7 @@ $result = mysqli_query($conn, $query);
     h1 {
       text-align: center;
       color: var(--dark-color);
-      margin-bottom: 30px;
+      margin-top: 40px;
     }
     
     .upload-link {
@@ -162,6 +167,7 @@ $result = mysqli_query($conn, $query);
   </style>
 </head>
 <body>
+  <?php include('navbar.php'); ?>
   <div class="container">
     <h1><i class="fas fa-images"></i> Galería de Imágenes</h1>
     

@@ -13,12 +13,17 @@
       --dark-color: #3a2e32;
     }
     
+        * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
     body {
       font-family: 'Raleway', sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 20px;
+      background-color: #f5f5f5;
       color: var(--dark-color);
+      line-height: 1.6;
     }
     
     .container {
@@ -117,6 +122,7 @@
   </style>
 </head>
 <body>
+<?php include('navbar.php'); ?>
   <div class="container">
     <a href="galeria.php" class="back-link">
       <i class="fas fa-arrow-left"></i> Volver a la Galería
