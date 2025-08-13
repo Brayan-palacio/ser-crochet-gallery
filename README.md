@@ -1,6 +1,6 @@
 # Galería de Imágenes - SER CROCHET
 
-![Preview](https://i.postimg.cc/Znvz8JCp/image.png)
+![Preview](https://i.postimg.cc/pr6cwxfC/captura.png)
 
 Sistema para subir y gestionar imágenes de productos, con generación de URLs para el panel de administración.
 
@@ -43,3 +43,4 @@ ser-crochet-gallery/
     Allow from all
   </FilesMatch>
   ```
+
